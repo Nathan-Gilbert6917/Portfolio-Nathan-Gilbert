@@ -1,0 +1,148 @@
+body {
+  background-image: url("../../images/background.jpg");
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+
+  --primary: #FBFBF2;
+}
+
+.app {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--primary);
+  backdrop-filter: blur(5px); /* blur effect to the backdrop */
+	background-color: rgba(0, 0, 0, 0.35);
+  width: 100vw;
+  height: 100vh;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1%;
+  align-items: center;
+  z-index: 10;
+}
+
+.navbar .name-container {
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 100px;
+  width: 30%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.name-container .first {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.name-container .last {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar .nav-links {
+  max-width: 300px;
+  width: 45%;
+  display: flex;
+  justify-content: space-around;
+}
+
+a:link {
+  text-decoration: none;
+  color: var(--primary);
+}
+
+a:visited {
+  text-decoration: none;
+  color: var(--primary);
+}
+
+.page-content-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+  font-family: 'Roboto Slab', serif;
+}
+
+.page-content-header {
+  font-size: 1.5rem;
+  margin: 0 0 0 8px;
+}
+
+.divider-container {
+  margin: 8px 0;
+  padding: 0 8px;
+  border-top: 1px solid var(--primary);
+}
+
+.divider-container .title {
+  font-size: 1.75rem;
+  white-space: nowrap;
+}
+
+.resume-btn {
+  padding: 8px 16px;
+  border: 1px solid var(--primary);
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-family: 'Open Sans', sans-serif;
+  background: none;
+  color: var(--primary);
+  cursor: pointer;
+}
+
+.footer {
+  position: fixed;
+  bottom: 6%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.portfolio-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  border: 1px solid var(--primary);
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-family: 'Open Sans', sans-serif;
+  background: none;
+  color: var(--primary);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1200px) {
+
+  .navbar {
+    padding: 3%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  .navbar {
+    padding: 5%;
+  }
+}
+
+
+
