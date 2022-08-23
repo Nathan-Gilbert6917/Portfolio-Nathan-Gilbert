@@ -21,7 +21,6 @@ function App() {
   const [isOpen, setOpen] = useState(false);
 
   const togglePortfolio = () => {
-    console.log(isOpen);
     setOpen(!isOpen);
   };
 
@@ -38,10 +37,18 @@ function App() {
           <a href="mailto: nag6917@g.rit.edu">
             <MailIcon />
           </a>
-          <a href="https://www.linkedin.com/in/nathangilbert6917/">
+          <a
+            href="https://www.linkedin.com/in/nathangilbert6917/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <LinkedInIcon />
           </a>
-          <a href="https://github.com/Nathan-Gilbert6917">
+          <a
+            href="https://github.com/Nathan-Gilbert6917"
+            target="_blank"
+            rel="noreferrer"
+          >
             <GitHubIcon />
           </a>
         </span>

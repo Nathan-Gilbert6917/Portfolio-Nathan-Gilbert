@@ -1,0 +1,77 @@
+.project-card {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+}
+
+.project-card .project-card-title {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+
+.project-card .project-card-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.project-card .project-card-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  border-radius: 8px;
+  border: 1px solid var(--primary);
+  max-width: 1000px;
+  width: 80%;
+}
+
+.project-card .project-card-button-container {
+  padding: 24px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.project-card .project-card-button-container a {
+  padding: 8px 16px;
+  border: 1px solid var(--primary);
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-family: 'Open Sans', sans-serif;
+  background: none;
+  color: var(--primary);
+  cursor: pointer;
+}
+
+.project-card .project-card-content {
+  padding: 2%;
+}
+
+.project-card .project-card-description,
+.project-card .project-card-technology {
+  width: 90%;
+  display: flex;
+  padding: 1%;
+  flex-direction: column;
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+  .project-card .project-card-inner {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .project-card .project-card-image-container {
+    width: 50%;
+  }
+
+   .project-card .project-card-content {
+    width: 50%;
+  }
+}

@@ -1,12 +1,10 @@
 body {
   background-image: url("../../images/background.jpg");
-  
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  width: 100%;
-
+  width: 100vw;
   --primary: #FBFBF2;
 }
 
@@ -15,10 +13,11 @@ body {
   left: 0;
   top: 0;
   color: var(--primary);
-  backdrop-filter: blur(5px); /* blur effect to the backdrop */
+  backdrop-filter: blur(5px);
 	background-color: rgba(0, 0, 0, 0.35);
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 
 .navbar {
@@ -28,7 +27,6 @@ body {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 1%;
   align-items: center;
   z-index: 10;
 }
@@ -40,6 +38,7 @@ body {
   max-width: 100px;
   width: 30%;
   font-family: 'Open Sans', sans-serif;
+  margin: 1% 3%;
 }
 
 .name-container .first {
@@ -130,19 +129,24 @@ a:visited {
   cursor: pointer;
 }
 
-@media only screen and (max-width: 1200px) {
-
-  .navbar {
-    padding: 3%;
-  }
+/* width */
+::-webkit-scrollbar {
+  width: 9px;
 }
 
-@media only screen and (max-width: 600px) {
-
-  .navbar {
-    padding: 5%;
-  }
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--primary);
+  border-radius: 8px;
 }
 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 8px;
+}
 
-
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
