@@ -59,9 +59,7 @@
   flex-direction: column;
 }
 
-
-
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width:600px) {
   .project-card .project-card-inner {
     display: flex;
     flex-direction: row;
