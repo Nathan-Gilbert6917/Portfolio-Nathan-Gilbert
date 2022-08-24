@@ -12,8 +12,8 @@
 }
 
 .portfolio-content-header {
-  font-size: 2rem;
-  margin: 0 0 0 8px;
+  font-size: 1.5rem;
+  margin: -8px;
   text-align: center;
   padding-bottom: 16px;
   width: 100%;
@@ -25,7 +25,13 @@
   bottom: 6%;
   left: 50%;
   transform: translateX(-50%);
+  display: flex;
+  gap: 5px;
   z-index: 12;
+}
+
+.portfolio-btn-container:hover {
+  background-color: #FBFBF211;
 }
 
 .portfolio-content-container {
@@ -42,15 +48,21 @@
   font-family: 'Roboto Slab', serif;
 }
 
-.page-projects-container {
+.portfolio-projects-container {
   display: flex;
   flex-direction: column;
   gap: 50px;
-  width: 100%;
+  width: 98%;
   height: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
   border: 1px solid var(--primary);
   border-radius: 8px;
-  padding: 24px 0;
+  scroll-snap-type: y mandatory;
+}
+
+.portfolio-projects-container .project-card {
+  scroll-snap-align: start;
+  scroll-snap-stop: normal;
+  scroll-margin: 10px;
 }

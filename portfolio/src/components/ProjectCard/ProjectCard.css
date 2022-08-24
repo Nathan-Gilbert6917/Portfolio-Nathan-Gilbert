@@ -6,7 +6,7 @@
 }
 
 .project-card .project-card-title {
-  font-size: 2rem;
+  font-size: 1.25rem;
   display: flex;
   justify-content: center;
   padding: 15px;
@@ -37,14 +37,18 @@
 }
 
 .project-card .project-card-button-container a {
-  padding: 8px 16px;
+  padding: 4px 24px;
   border: 1px solid var(--primary);
   border-radius: 8px;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-family: 'Open Sans', sans-serif;
   background: none;
   color: var(--primary);
-  cursor: pointer;
+  cursor: pointer; 
+}
+
+.project-card .project-card-button-container a:hover {
+  background-color: #FBFBF211;
 }
 
 .project-card .project-card-content {

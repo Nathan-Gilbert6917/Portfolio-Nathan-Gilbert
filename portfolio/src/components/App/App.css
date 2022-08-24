@@ -32,7 +32,7 @@ body {
 }
 
 .navbar .name-container {
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   display: flex;
   flex-direction: column;
   max-width: 100px;
@@ -52,10 +52,22 @@ body {
 }
 
 .navbar .nav-links {
-  max-width: 300px;
-  width: 45%;
+  max-width: 200px;
+  width: 55%;
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  
+}
+
+ a {
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border: 1px solid transparent;
+  border-radius: 10px;
 }
 
 a:link {
@@ -66,6 +78,15 @@ a:link {
 a:visited {
   text-decoration: none;
   color: var(--primary);
+}
+
+a:hover {
+  border: 1px solid var(--primary);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FBFBF211;
 }
 
 .page-content-container {
@@ -81,7 +102,7 @@ a:visited {
 }
 
 .page-content-header {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   margin: 0 0 0 8px;
 }
 
@@ -100,11 +121,15 @@ a:visited {
   padding: 8px 16px;
   border: 1px solid var(--primary);
   border-radius: 8px;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-family: 'Open Sans', sans-serif;
   background: none;
   color: var(--primary);
   cursor: pointer;
+}
+
+.resume-btn:hover {
+  background-color: #FBFBF211;
 }
 
 .footer {
@@ -122,7 +147,7 @@ a:visited {
   padding: 8px 16px;
   border: 1px solid var(--primary);
   border-radius: 8px;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-family: 'Open Sans', sans-serif;
   background: none;
   color: var(--primary);
@@ -136,7 +161,7 @@ a:visited {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: var(--primary);
+  background: transparent;
   border-radius: 8px;
 }
 
@@ -144,9 +169,4 @@ a:visited {
 ::-webkit-scrollbar-thumb {
   background: #555;
   border-radius: 8px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
 }

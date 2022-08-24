@@ -39,19 +39,21 @@ const Portfolio = ({ isOpen, stateToggle }) => {
     <div className={portfolioClassName}>
       <div className="portfolio-content-container">
         <div className="portfolio-content-header">Portfolio</div>
-        <div className="page-projects-container">
-          {projects.map((project) => {
-            return (
-              <ProjectCard
-                key={project.title}
-                title={project.title}
-                imageURL={project.imageURL}
-                imageAlt={project.imageAlt}
-                description={project.description}
-                technology={project.technology}
-              />
-            );
-          })}
+        <div className="portfolio-projects-container">
+          <div className="wrapper">
+            {projects.map((project) => {
+              return (
+                <ProjectCard
+                  key={project.title}
+                  title={project.title}
+                  imageURL={project.imageURL}
+                  imageAlt={project.imageAlt}
+                  description={project.description}
+                  technology={project.technology}
+                />
+              );
+            })}
+          </div>
         </div>
       </div>
 
