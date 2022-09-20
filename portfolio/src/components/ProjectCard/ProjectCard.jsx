@@ -4,7 +4,7 @@ import "./ProjectCard.css";
 
 const ProjectCard = ({
   title,
-  imageURL,
+  image,
   imageAlt,
   description,
   technology,
@@ -16,7 +16,7 @@ const ProjectCard = ({
       <span className="project-card-title">{title}</span>
       <div className="project-card-inner">
         <div className="project-card-image-container">
-          <img className="project-card-image" src={imageURL} alt={imageAlt} />
+          <img className="project-card-image" src={image} alt={imageAlt} />
           <div className="project-card-button-container">
             <a href={codeUrl} target="_blank" rel="noreferrer">
               Code
