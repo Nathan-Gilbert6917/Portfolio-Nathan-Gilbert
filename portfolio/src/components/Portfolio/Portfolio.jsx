@@ -10,7 +10,7 @@ const Portfolio = ({ isOpen, stateToggle }) => {
 
   const projects = [
     {
-      title: "Project 1",
+      title: "Portfolio Website",
       imageURL: "./background.jpg",
       imageAlt: "Project 1 Image",
       description:
@@ -18,7 +18,7 @@ const Portfolio = ({ isOpen, stateToggle }) => {
       technology: ["Tech 1", "Tech 2", "Tech 3", "Tech 4"],
     },
     {
-      title: "Project 2",
+      title: "React Components",
       imageURL: "./background.jpg",
       imageAlt: "Project 2 Image",
       description:
@@ -26,7 +26,7 @@ const Portfolio = ({ isOpen, stateToggle }) => {
       technology: ["Tech 1", "Tech 2", "Tech 3", "Tech 4"],
     },
     {
-      title: "Project 3",
+      title: "Application Authorization and Authentication",
       imageURL: "./background.jpg",
       imageAlt: "Project 3 Image",
       description:
