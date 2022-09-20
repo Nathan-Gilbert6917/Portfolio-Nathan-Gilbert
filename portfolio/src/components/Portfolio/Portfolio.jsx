@@ -58,6 +58,8 @@ const Portfolio = ({ isOpen, stateToggle }) => {
                   imageAlt={project.imageAlt}
                   description={project.description}
                   technology={project.technology}
+                  codeUrl={project.codeUrl}
+                  projectUrl={project.projectUrl}
                 />
               );
             })}
