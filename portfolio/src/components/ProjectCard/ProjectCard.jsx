@@ -8,6 +8,8 @@ const ProjectCard = ({
   imageAlt,
   description,
   technology,
+  projectUrl,
+  codeUrl,
 }) => {
   return (
     <div className="project-card">
@@ -16,10 +18,10 @@ const ProjectCard = ({
         <div className="project-card-image-container">
           <img className="project-card-image" src={imageURL} alt={imageAlt} />
           <div className="project-card-button-container">
-            <a href="https://github.com" target="_blank" rel="noreferrer">
+            <a href={codeUrl} target="_blank" rel="noreferrer">
               Code
             </a>
-            <a href="https://github.com" target="_blank" rel="noreferrer">
+            <a href={projectUrl} target="_blank" rel="noreferrer">
               Project
             </a>
           </div>

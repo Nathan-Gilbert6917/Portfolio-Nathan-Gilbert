@@ -13,6 +13,9 @@ const Portfolio = ({ isOpen, stateToggle }) => {
       title: "Portfolio Website",
       imageURL: "./background.jpg",
       imageAlt: "Project 1 Image",
+      codeUrl: "https://github.com/Nathan-Gilbert6917/Portfolio-Nathan-Gilbert",
+      projectUrl:
+        "https://nathan-gilbert6917.github.io/Portfolio-Nathan-Gilbert/",
       description:
         "Et non est est reprehenderit ad. Enim ea aliquip reprehenderit enim sunt eu ut quis laboris in veniam ullamco officia. Exercitation labore qui magna irure voluptate proident. Nostrud dolore nisi ullamco id. Et non est est reprehenderit ad. Enim ea aliquip reprehenderit enim sunt eu ut quis laboris in veniam ullamco officia. Exercitation labore qui magna irure voluptate proident. Nostrud dolore nisi ullamco id.",
       technology: ["Tech 1", "Tech 2", "Tech 3", "Tech 4"],
@@ -21,6 +24,9 @@ const Portfolio = ({ isOpen, stateToggle }) => {
       title: "React Components",
       imageURL: "./background.jpg",
       imageAlt: "Project 2 Image",
+      codeUrl:
+        "https://github.com/Nathan-Gilbert6917/Nathan-Gilbert-React-Components",
+      projectUrl: "https://heartfelt-concha-e7eece.netlify.app/",
       description:
         "Et non est est reprehenderit ad. Enim ea aliquip reprehenderit enim sunt eu ut quis laboris in veniam ullamco officia. Exercitation labore qui magna irure voluptate proident. Nostrud dolore nisi ullamco id. Et non est est reprehenderit ad. Enim ea aliquip reprehenderit enim sunt eu ut quis laboris in veniam ullamco officia. Exercitation labore qui magna irure voluptate proident. Nostrud dolore nisi ullamco id.",
       technology: ["Tech 1", "Tech 2", "Tech 3", "Tech 4"],
@@ -29,6 +35,8 @@ const Portfolio = ({ isOpen, stateToggle }) => {
       title: "Application Authorization and Authentication",
       imageURL: "./background.jpg",
       imageAlt: "Project 3 Image",
+      codeUrl: "https://github.com/Nathan-Gilbert6917/KillTeamManager",
+      projectUrl: "https://github.com/Nathan-Gilbert6917/KillTeamManager",
       description:
         "Et non est est reprehenderit ad. Enim ea aliquip reprehenderit enim sunt eu ut quis laboris in veniam ullamco officia. Exercitation labore qui magna irure voluptate proident. Nostrud dolore nisi ullamco id. Et non est est reprehenderit ad. Enim ea aliquip reprehenderit enim sunt eu ut quis laboris in veniam ullamco officia. Exercitation labore qui magna irure voluptate proident. Nostrud dolore nisi ullamco id.",
       technology: ["Tech 1", "Tech 2", "Tech 3", "Tech 4"],
