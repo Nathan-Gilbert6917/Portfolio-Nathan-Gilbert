@@ -1,16 +1,19 @@
 {
   "files": {
     "main.css": "/Portfolio-Nathan-Gilbert/static/css/main.4a0f8059.css",
-    "main.js": "/Portfolio-Nathan-Gilbert/static/js/main.0d3c2115.js",
+    "main.js": "/Portfolio-Nathan-Gilbert/static/js/main.a555ef89.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio-Nathan-Gilbert/static/js/787.1ed0c42c.chunk.js",
+    "static/media/portfolio.png": "/Portfolio-Nathan-Gilbert/static/media/portfolio.73cb4b6c2f91dc52b644.png",
     "static/media/background.jpg": "/Portfolio-Nathan-Gilbert/static/media/background.0c26e02a7a3a8bc8a5b6.jpg",
+    "static/media/components.png": "/Portfolio-Nathan-Gilbert/static/media/components.9134c3cf9702eb50f148.png",
+    "static/media/auth.png": "/Portfolio-Nathan-Gilbert/static/media/auth.6f503579dd169a1e17bf.png",
     "index.html": "/Portfolio-Nathan-Gilbert/index.html",
     "main.4a0f8059.css.map": "/Portfolio-Nathan-Gilbert/static/css/main.4a0f8059.css.map",
-    "main.0d3c2115.js.map": "/Portfolio-Nathan-Gilbert/static/js/main.0d3c2115.js.map",
+    "main.a555ef89.js.map": "/Portfolio-Nathan-Gilbert/static/js/main.a555ef89.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio-Nathan-Gilbert/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4a0f8059.css",
-    "static/js/main.0d3c2115.js"
+    "static/js/main.a555ef89.js"
   ]
 }
