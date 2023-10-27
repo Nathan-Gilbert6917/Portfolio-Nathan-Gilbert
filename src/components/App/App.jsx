@@ -72,12 +72,13 @@ function App() {
         <button
           className="portfolio-btn-container"
           onClick={() => togglePortfolio()}
+          disabled
         >
-          Portfolio
+          Portfolio (WIP)
           <ChevronIcon />
         </button>
       </div>
-      <Portfolio isOpen={isOpen} stateToggle={togglePortfolio} />
+{/*       <Portfolio isOpen={isOpen} stateToggle={togglePortfolio} /> */}
     </div>
   );
 }
