@@ -1,14 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import "./App.css";
-
-import Portfolio from "../Portfolio/Portfolio";
 import { saveAs } from "file-saver";
 
 // Icons
 import GitHubIcon from "../Icons/GitHubIcon";
 import MailIcon from "../Icons/MailIcon";
 import LinkedInIcon from "../Icons/LinkedInIcon";
-import ChevronIcon from "../Icons/ChevronIcon";
 
 function App() {
   const saveFile = () => {
@@ -17,12 +14,7 @@ function App() {
       "Nathan_Gilbert_Resume.pdf"
     );
   };
-
-  const [isOpen, setOpen] = useState(false);
-
-  const togglePortfolio = () => {
-    setOpen(!isOpen);
-  };
+  const path = "https://www.nathangilbert.website";
 
   return (
     <div className="app">
@@ -69,16 +61,16 @@ function App() {
         </div>
       </div>
       <div className="footer">
-        <button
-          className="portfolio-btn-container"
-          onClick={() => togglePortfolio()}
-          disabled
-        >
-          Portfolio (WIP)
-          <ChevronIcon />
-        </button>
+
+              <a
+                  className="portfolio-btn"
+                  href={path}
+                  target="_blank"
+                  rel="noreferrer"
+              >
+                  Portfolio
+              </a>
       </div>
-{/*       <Portfolio isOpen={isOpen} stateToggle={togglePortfolio} /> */}
     </div>
   );
 }
